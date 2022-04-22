@@ -1,0 +1,133 @@
+html, body {
+    margin: 0;
+}
+
+
+#imagem_fundo {
+    background: url(img/fundo.jpg) ;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+
+#titulo {
+    color: white;
+    padding-top: 10%;
+    font-size: 70px ;
+    line-height: 1;
+    text-shadow: red;
+}
+
+#subtitulo {
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 30px;
+    text-align: center; width: 60%;
+}
+
+
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-decoration: initial;
+}
+
+
+#selecao {
+    text-align: center;
+}
+
+#caixa {
+    width: 60%;
+    height: 50%;
+    border: 3px solid tomato;
+    text-align: center;
+    line-height: 89.5px;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 60px;
+    text-decoration: none;
+    align-self: hover;
+}
+
+.icone {
+    width: 51px;
+    }
+
+ section {
+     padding: 20px;
+     float: left;
+ }   
+
+
+.destaque { 
+    background-color: wheat;
+}
+
+.imgeco {
+    width: 85%;
+    height: 30%;
+}
+
+
+.coluna {   
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+
+.dois {
+   width: 40%;
+}
+
+.quatro {
+    width: 15%;
+   
+}
+
+.tres {
+    width: 29%;
+    padding:0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+#logo {
+    width: 96px;
+    position: absolute;
+    top: 10px;
+    margin-left: 3%;
+    -border: 1px white solid;
+}
+#menu {
+    border: 1px;
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.navLinks {
+    color: white;
+    text-decoration: none;
+}
